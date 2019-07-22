@@ -1,4 +1,4 @@
-package com.meetup;
+package com.meetup.attendee;
 
 import io.quarkus.test.junit.SubstrateTest;
 
