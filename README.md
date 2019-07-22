@@ -9,7 +9,7 @@ mvn io.quarkus:quarkus-maven-plugin:0.19.1:create \
     -DprojectGroupId=com.meetup-quarkus \
     -DprojectArtifactId=meetup-quarkus \
     -DprojectVersion=0.0.1-SNAPSHOT \
-    -DclassName="com.meetup.AttendeeResource" \
+    -DclassName="com.meetup.attendee.AttendeeResource" \
     -Dpath="/attendee" \
     -Dextensions="resteasy-jsonb, hibernate-orm-panache, jdbc-postgresql"
 ```
